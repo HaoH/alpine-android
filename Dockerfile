@@ -42,6 +42,7 @@ RUN mkdir -p ${GRADLE_HOME} && \
 	rm -v /tmp/gradle.zip
 
 RUN mkdir -p /gradle_project
+COPY ./.gradle /root/.gradle
 VOLUME /gradle_project
 WORKDIR /gradle_project
 ENV CLICOLOR 1
