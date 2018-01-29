@@ -1,25 +1,27 @@
 # Alpine Android
-[![](https://img.shields.io/docker/pulls/alvrme/alpine-android.svg)](https://hub.docker.com/r/alvrme/alpine-android/)
-[![](https://img.shields.io/docker/stars/alvrme/alpine-android.svg)](https://hub.docker.com/r/alvrme/alpine-android/)
-[![](https://images.microbadger.com/badges/image/alvrme/alpine-android.svg)](https://microbadger.com/images/alvrme/alpine-android)
+some update and fix based on [alvr/alpine-android](https://github.com/alvr/alpine-android)
+* OpenJDK updated to 1.8.0_151
+* Grale 4.5
+* Android SDK tools installed successfully (bug)
 
 ## Content
-* OpenJDK 1.8.0_131
+* OpenJDK 1.8.0_151
 * SDK Platform Android 8, API 26, revision 1
 * Android SDK Platform-tools, revision 26
-* Android SDK Build-tools, revision 26.0.1
+* Android SDK Build-tools, revision 26.0.2
 * Android Support Repository, revision 47
 * Google Play services, revision 43
 * Google Repository, revision 57
+* Gradle 4.5
 
 ---
 
 ### Pull from Docker Hub
 ```sh
-docker pull alvrme/alpine-android:latest
+docker pull huh09/alpine-android:latest
 ```
 
 ### Pull from Docker Hub
 ```Dockerfile
-FROM alvrme/alpine-android:latest
+FROM huh09/alpine-android:latest
 ```
