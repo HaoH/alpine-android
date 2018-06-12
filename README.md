@@ -1,8 +1,8 @@
-# Alpine Android
+# Alpine Android ![](https://images.microbadger.com/badges/image/huh09/alpine-android.svg)
 some update and fix based on [alvr/alpine-android](https://github.com/alvr/alpine-android)
 * OpenJDK updated to 1.8.0_151
 * Grale 4.5
-* Android SDK tools installed successfully (bug)
+* fix bug in Android SDK tools installation
 
 ## Content
 * OpenJDK 1.8.0_151
